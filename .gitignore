@@ -1,1 +1,28 @@
-.venv
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# DuckDB database files
+# These can lock easily and should NOT be versioned
+data/processed/*.duckdb
+data/processed/*.duckdb.wal
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code settings
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+*.log
