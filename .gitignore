@@ -6,8 +6,8 @@ ENV/
 
 # DuckDB database files
 # These can lock easily and should NOT be versioned
-data/processed/*.duckdb
-data/processed/*.duckdb.wal
+*.duckdb
+*.duckdb.wal
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/

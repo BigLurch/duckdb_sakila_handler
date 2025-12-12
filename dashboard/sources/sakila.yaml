@@ -1,9 +1,0 @@
-type: duckdb
-filename: ../data/processed/sakila.duckdb
-tables:
-  film: "SELECT * FROM raw_sakila.film"
-  category: "SELECT * FROM raw_sakila.category"
-  actor: "SELECT * FROM raw_sakila.actor"
-  rental: "SELECT * FROM raw_sakila.rental"
-  customer: "SELECT * FROM raw_sakila.customer"
-  payment: "SELECT * FROM raw_sakila.payment"
